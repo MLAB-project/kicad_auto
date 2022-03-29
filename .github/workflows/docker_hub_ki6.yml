@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - ki6_*
+  workflow_dispatch:
   repository_dispatch:
     types: [build_k6]
 
